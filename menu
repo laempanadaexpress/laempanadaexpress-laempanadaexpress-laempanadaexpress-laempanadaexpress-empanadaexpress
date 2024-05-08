@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+    </style>
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+    <title>Empanada Grill</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-H+C4v4JRVbtLli4Uz57AayPko1Kyss2/F/1V6Xs5MthhCD6BwXw66x1Z9NkeON5f6B" crossorigin="anonymous" />
+    <div class="wrap column-4 columns">
+
+        <div class="tarjeta-rest" style="background: url(img/pizza-bg.jpg) center; background-size: cover;">
+          <div class="wrap-text_tarjeta-rest">
+            <h3>Pizza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+            <div class="cta-wrap_tarjeta-rest">
+              <div class="precio_tarjeta-rest">
+                <span>12€</span>
+              </div>
+              <div class="cta_tarjeta-rest">
+                <a href="">Pedir ahora</a>
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+    
+        <div class="tarjeta-rest" style="background: url(img/hamburguesas-bg.jpg) center; background-size: cover;">
+          <div class="wrap-text_tarjeta-rest">
+            <h3>Hamburguesas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+            <div class="cta-wrap_tarjeta-rest">
+              <div class="precio_tarjeta-rest">
+                <span>12€</span>
+              </div>
+              <div class="cta_tarjeta-rest">
+                <a href="">Pedir ahora</a>
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+    
+        <div class="tarjeta-rest" style="background: url(img/sushi-bg.jpg) center; background-size: cover;">
+          <div class="wrap-text_tarjeta-rest">
+            <h3>Sushi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+            <div class="cta-wrap_tarjeta-rest">
+              <div class="precio_tarjeta-rest">
+                <span>12€</span>
+              </div>
+              <div class="cta_tarjeta-rest">
+                <a href="">Pedir ahora</a>
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+    
+        <div class="tarjeta-rest" style="background: url(img/alitas-pollo-bg.jpg) center; background-size: cover;">
+          <div class="wrap-text_tarjeta-rest">
+            <h3>Alitas de pollo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+            <div class="cta-wrap_tarjeta-rest">
+              <div class="precio_tarjeta-rest">
+                <span>12€</span>
+              </div>
+              <div class="cta_tarjeta-rest">
+                <a href="">Pedir ahora</a>
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+    
+      </div>
+
+</head>
+
+
+ <!--========== SCROLL REVEAL ==========-->
+ <script src="https://unpkg.com/scrollreveal"></script>
+
+ <!--========== MAIN JS ==========-->
+ <script src="index.js"></script>
+</body>
+</html>
