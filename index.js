@@ -121,6 +121,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const menuBtns = document.querySelectorAll(".menu-btn");
+  
+    menuBtns.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        const menuList = this.nextElementSibling;
+        menuList.classList.toggle("show");
+      });
+    });
+});
+
 
 
 
