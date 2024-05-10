@@ -679,7 +679,7 @@
    margin-bottom: var(--mb-4);
  }
  .nav__item{
-   color: #F1F3F2;
+   color: #000000;
  }
  
  .nav__logo {
@@ -746,7 +746,7 @@
 }
 
 .menu-btn {
-  background-color: #080808;
+  background-color: #ffffff;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -985,10 +985,6 @@ html {
   }
 }
 
-
-
-
-/* Estilos de las tarjetas */
 /* Estilos de las tarjetas */
 .wrap {
   display: grid;
@@ -1128,6 +1124,35 @@ body {
   display:inline-block;
   width:95%;
  }
+ .hero-section {
+  background-image: url('local1.jpg'); /* Cambiar a la imagen de fondo deseada */
+  background-size: cover; /* Ajustar el tamaño de la imagen para que cubra todo el contenedor */
+  background-position: center; /* Centrar la imagen */
+}
+
+/* Estilo para escritorio */
+#home {
+background-size: cover; /* Ajustar el tamaño de la imagen para que cubra todo el contenedor */
+background-position: center; /* Centrar la imagen */
+}
+
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+  .hero-section {
+      background-image: url('local1.jpg'); /* Cambiar a la imagen de fondo deseada */
+      background-size: cover; /* Ajustar el tamaño de la imagen para que cubra todo el contenedor */
+      background-position: center; /* Centrar la imagen */
+      height: 100vh; /* Establecer la altura de la sección a la altura de la ventana */
+      padding-top: calc(50px - 3rem); /* Ajustar el relleno superior para solapar con el encabezado */
+  }
+}
+/* Home */
+#home{
+  transform:translatex(0px) translatey(9px);
+ }
+ 
+ 
+
  
  
 
